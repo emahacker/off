@@ -1,0 +1,33 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.banner {
+    max-width: 100%;
+    height: auto;
+}
